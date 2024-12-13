@@ -1,0 +1,67 @@
+body{
+    background-color: #212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 98vh;
+    width: 98vw;
+    /* background-color: ; */
+    display: flex;
+    gap: 10px;
+}
+
+.right{
+    height: 100%;
+    width: 40vw;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+.top{
+    height: 33%;
+    width: 100%;
+    background-color: blueviolet;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.middle{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.first{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    background-size: cover;
+    border-radius: 20px;
+}
+.second{
+    height: 100%;
+    width: 50%;
+    background-color: chartreuse;
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.bottom{
+    height: 33%;
+    width: 100%;
+    background-color:yellow ;
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
